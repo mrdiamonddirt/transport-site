@@ -15,13 +15,13 @@ function App() {
                     <li>
                         <a href="#contact">Contact</a>
                     </li>
-                    <li>
+                    {/* <li>
                         <a href="#contact-form">Contact Form</a>
-                    </li>
+                    </li> */}
                 </ul>
             </nav>
             <header>
-                <h1>Welcome to Our Courier Company</h1>
+                <h1>fast couriers</h1>
                 <h3>The World's Best Courier Company</h3>
             </header>
             <img
