@@ -67,13 +67,13 @@ function App() {
                             </p>
                             <p>
                                 Email:{" "}
-                                <a href="mailto:info@ourcouriercompany.com">
+                                <a href="mailto:info@notarealsite.com">
                                     info@ourcouriercompany.com
                                 </a>
                             </p>
                             <p>
                                 Phone:{" "}
-                                <a href="tel:+15551234567">+1 (555) 123-4567</a>
+                                <a href="tel:+07226513412">0722 651 3412</a>
                             </p>
                         </div>
                     </div>
