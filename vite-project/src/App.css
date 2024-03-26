@@ -1,0 +1,49 @@
+:root {
+  --primary-color: #007bff; /* Blue */
+  --secondary-color: #6c757d; /* Gray */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+
+.services ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services li {
+  margin-bottom: 5px;
+  color: var(--secondary-color);
+  transition: color 0.3s ease-in-out;
+}
+
+.services li:hover {
+  color: var(--primary-color);
+}
+
+.about,
+.contact {
+  margin-top: 20px;
+}
+
+.contact p {
+  margin-bottom: 10px;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+footer p {
+  font-size: 0.8rem;
+}
