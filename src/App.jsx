@@ -15,11 +15,14 @@ function App() {
                     <li>
                         <a href="#contact">Contact</a>
                     </li>
+                    <li>
+                        <a href="#contact-form">Contact Form</a>
+                    </li>
                 </ul>
             </nav>
             <header>
                 <h1>Welcome to Our Courier Company</h1>
-                <h3>The Worlds best Courier Company</h3>
+                <h3>The World's Best Courier Company</h3>
             </header>
             <img
                 className="hero"
@@ -41,7 +44,13 @@ function App() {
                     <p>
                         We are a reliable and efficient courier company
                         dedicated to providing top-notch delivery services to
-                        our customers.
+                        our customers. Our team of professionals is committed to
+                        ensuring that your packages are delivered on time and in
+                        perfect condition. We offer a wide range of services,
+                        including express delivery, same-day delivery,
+                        international shipping, and customized solutions to meet
+                        your unique needs. Contact us today to experience the
+                        best courier services in the world!{" "}
                     </p>
                 </section>
                 <section id="contact" className="contact">
@@ -68,10 +77,36 @@ function App() {
                             </p>
                         </div>
                     </div>
+                    <section id="contact-form" className="contact-form">
+                        <h3>Send us a message</h3>
+                        <form>
+                            <label htmlFor="name">Name:</label>
+                            <input type="text" id="name" name="name" required />
+                            <label htmlFor="email">Email:</label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                required
+                            />
+                            <label htmlFor="message">Message:</label>
+                            <textarea
+                                id="message"
+                                name="message"
+                                required
+                            ></textarea>
+                            <button type="submit">Send</button>
+                        </form>
+                    </section>
                 </section>
             </main>
             <footer>
-                <p>&copy; 2024 Our Courier Company. All rights reserved.</p>
+                <p>
+                    &copy; 2024 The Best Courier Company. All rights reserved.
+                </p>
+                <p>&reg; Registered Trademark of The Best Courier Company.</p>
+                {/* created by Rowan Wood for fun */}
+                <p>Created by Rowan Wood for fun</p>
             </footer>
         </div>
     );
